@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/icons/Arvi-ply-logo.png" type="image/x-icon">
+
+  <title>Arvi Ply - Best Plywood Brand in India</title>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/spacing.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <link rel="stylesheet" href="./assets/css/carousel.css">
+</head>
+
+<body>
+  <!-- preloader starts -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <h5 class="preloader-text">Arvi Ply</h5>
+  </div>
+
+  <!-- preloader ends -->
+
+  <!-- navbar section starts -->
+  <header>
+    <div class="main_menu navbar d-none d-xl-flex">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+            </a>
+            <div class="main-menu">
+                <nav class="navbar-nav m-auto" id="navbarNav">
+                    <ul>
+                        <li class="dropdown-nav">
+                            <a href="index.html" class="text_hover_animaiton">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text_hover_animaiton">About</a>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="innovation.html" class="text_hover_animaiton">Innovation</a>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="plywood.html" class="text_hover_animaiton">Products</a>
+                            <ul class="submenu">
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">Club 710</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Gold 710</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">BWR Premium</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Prime MR</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">Bock Board</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Flush Door</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="blog.html" class="text_hover_animaiton">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text_hover_animaiton">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right_menu">
+                <a href="#" class="search_icon"></a>
+                </a>
+                <a href="contact.html" class="common_btn">Request Quote</a>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu d-xl-none main_menu d-flex">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <div class="navbar-brand ms-3">
+                    <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                            class="img-fluid w-100" /></a>
+                </div>
+                <div class="text-end me-3">
+                    <a class="menu-bar navbar-toggler" href="javascript:void(0)"><i
+                            class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_menu_container">
+        <div class="mobile_menu_content">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                            class="img-fluid w-100" /></a>
+                </div>
+                <div class="close_btn">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+            <div class="main-menu-mobile"></div>
+        </div>
+    </div>
+</header>
+<form>
+    <input type="text" placeholder="Search" />
+    <button type="submit">Search</button>
+    <span class="close_search c-pointer"><i class="fa-sharp fa-light fa-xmark"></i></span>
+    <i class="icon-down-arrow"></i>
+</form>
+<div class="body-overlay"></div>
+  <!-- navbar section ends -->
+
+  <!-- hero section starts -->
+  <section class="banner" style="background: url(assets/images/banner_bg.png)">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="banner_text">
+            <h4>Arvi Plywood</h4>
+            <h1 class="banner_title">
+              Perfect choice for <span>Your <b>furniture.</b></span>
+            </h1>
+          </div>
+          <div class="banner_img">
+            <div data-animation="img-blur" data-scroll="0">
+              <img src="./assets/images/hero-image.png" alt="banner" class="img-fluid w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="d-flex flex-wrap"> 
+      <li><span>Follow Us</span></li>
+      <li><a href="#">Fb.</a></li>
+      <li><a href="#">Ig.</a></li>
+      <li><a href="#">Li.</a></li>
+    </ul>
+  </section>
+  <!-- hero section ends -->
+
+  <!-- about-us section starts -->
+  <section class="about_us pt_120 xs_pt_70 pb_120 xs_pb_70">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-7">
+          <div class="about_text">
+            <div class="section_heading">
+              <h5 data-text-animation>Arvi Plywood</h5>
+              <h2 data-text-animation data-split="word" data-duration="1">
+                Everything About Us
+              </h2>
+            </div>
+            <a class="circle_btn" href="about.html">Learn More <i class="fx-icon-next-arrow"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-7">
+          <div class="about_img_1">
+            <div class="img">
+              <div data-animation="img-blur">
+                <img src="./assets/images/about-img-1.jpg" alt="about" class="img-fluid w-100" />
+              </div>
+            </div>
+            <p>
+              We As Arvi-commited to manufacture all our product with Modern and international Standard.Our all product
+              is 100% calibrated.We have plan with maximise Automation for Plywood manufactring where core composer is
+              used for NO OVERLAP NO GAP.The four press Technology is used for superior bonding and higher strength.
+              Both side calibration with high-end calibrator ensures uniform and smooth thickness at each point of
+              Plywood.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5">
+          <div class="about_img_2">
+            <div data-animation="img-blur">
+              <img src="./assets/images/about-img-2.jpg" alt="about" class="img-fluid w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about-us section ends -->
+
+  <!-- presentation section starts -->
+  <section class="what_we_do pt_120 xs_pt_70 pb_120 xs_pb_70">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 col-md-8">
+          <div class="section_heading">
+            <h5>Arvi Plywood</h5>
+            <h2 data-text-animation data-split="word">
+              Our Products
+            </h2>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+            <a class="circle_btn" href="blog_grid.html">View <br />
+             Products <i class="fx-icon-next-arrow"></i></a>
+          </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-12">
+          <ul>
+            <li data-animation class="image-view" data-img-cursor="<img src='./assets/images/ply-demo-1.png' />">
+              <div class="icon">
+                <img src="assets/images/icons/ply-icon-1.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>Club 710</h3>
+                <p>
+                  Arvi Club Marine plywood comes with Life Time warranty It can withstand extreme wear and tear for many
+                  decades and comply with International Standard.
+                </p>
+              </div>
+              <div class="img">
+                <img src="images/what_we_do_img.jpg" alt="what we do" class="img-fluid w-100" />
+              </div>
+              <a class="circle_btn" href="#">details</a>
+            </li>
+            <li data-animation class="image-view" data-img-cursor="<img src='./assets/images/ply-demo-2.jpg' />">
+              <div class="icon">
+                <img src="assets/images/icons/ply-icon-2.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>Gold 710</h3>
+                <p>
+                  Arvi Gold Marine plywood comes with 25 Year of warranty. It can withstand extreme wear and tear for
+                  many decades and comply with International Standard.
+                </p>
+              </div>
+            </li>
+            <li data-animation class="image-view" data-img-cursor="<img src='assets/images/ply-demo-3.jpg' />">
+              <div class="icon">
+                <img src="assets/images/icons/ply-iocn-3.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>BWR Premium</h3>
+                <p>
+                  Arvi MR/BWR plywood is ideal for robust interior construction work and many others application which
+                  required moisture resistance. Arvi MR/BWR Plywood consists of Hardwood species along with thick Gurjan
+                  Face.
+                </p>
+              </div>
+              <div class="img">
+                <img src="images/what_we_do_img.jpg" alt="what we do" class="img-fluid w-100" />
+              </div>
+              <a class="circle_btn" href="#">details</a>
+            </li>
+            <li data-animation class="image-view" data-img-cursor="<img src='assets/images/ply-demo-3.jpg' />">
+              <div class="icon">
+                <img src="assets/images/icons/icon-4.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>Prime MR</h3>
+                <p>
+                  This classic wooden texture with a pale finish exudes timeless elegance. Its soft, light hues and
+                  refined grain pattern add a sophisticated touch to any design, perfect for creating a calm and classic
+                  aesthetic.
+                </p>
+              </div>
+              <div class="img">
+                <img src="images/what_we_do_img.jpg" alt="what we do" class="img-fluid w-100" />
+              </div>
+              <a class="circle_btn" href="#">details</a>
+            </li>
+            <li data-animation class="image-view" data-img-cursor="<img src='assets/images/ply-demo-3.jpg' />">
+              <div class="icon">
+                <img src="assets/images/icons/icon-5.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>Block Board</h3>
+                <p>
+                  Arvi MR block board is superior quality product made from imported pine wood. it is made with high
+                  quality MUF synthetic resin to makes block board water resistant and meets all specific: n of IS 1659.
+                </p>
+              </div>
+              <div class="img">
+                <img src="images/what_we_do_img.jpg" alt="what we do" class="img-fluid w-100" />
+              </div>
+              <a class="circle_btn" href="#">details</a>
+            </li>
+            <li data-animation class="image-view" data-img-cursor="<img src='assets/images/ply-demo-3.jpg' />">
+              <div class="icon">
+                <img src="assets/images/icons/icon-6.svg" alt="about" />
+              </div>
+              <div class="text">
+                <h3>Flush Door</h3>
+                <p>
+                  Arvi Flush Door is a premium Boiling Waterproof grade product which has superior attributes to suit
+                  different climatic conditions.
+                </p>
+              </div>
+              <div class="img">
+                <img src="images/what_we_do_img.jpg" alt="what we do" class="img-fluid w-100" />
+              </div>
+              <a class="circle_btn" href="#">details</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- presentation section ends -->
+
+  <!-- project section starts -->
+  <div style="background-color: #111013; padding: 50px 0;">
+    <div class="container mb_50">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 col-md-8">
+          <div class="section_heading ">
+            <h5>Our Process</h5>
+            <h2 data-text-animation data-split="word" class="text-white">
+              Crafting Excellence, Step by Step
+            </h2>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="blog_right_text">
+            <a class="circle_btn" href="blog_grid.html">View Our<br />
+              Innovation <i class="fx-icon-next-arrow"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="base-template__content">
+      <div class="emotions-slider">
+        <!-- Slider Content -->
+        <div class="emotions-slider__slider swiper">
+          <div class="emotions-slider__wrapper swiper-wrapper">
+
+            <!-- Slider: Slide 1 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price">01</div>
+                    </div>
+                  </div>
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      Vacuum Pressure Treatment
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      The only plywood in India made with 100% scientifically researched proprietary Vacuum Pressure
+                      Chemical Treated veneer to provide protection against termites, borers and fire
+                    </div>
+                  </div>
+                </div>
+                <div class="emotions-slider-item__image mt_20">
+                  <img src="assets/images/process-7.jpeg" alt="Winds of Change" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 2 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price ">02</div>
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      Fully Composed Core & Panels
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      100% composed veneer sheets made using sophisticated core and panel composers to ensure precise
+                      manufacturing of high quality plywood
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image">
+                  <img src="assets/images/process-1.jpeg" alt="Flames of Passion" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 3 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+
+
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price">03</div>
+
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      100% Phenolic Resins
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      100% BWP grade high solid phenolic polymers ensures excellent and unbreakable bonding and
+                      waterproof properties.
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image mt_55">
+                  <img src="assets/images/procees-2.jpeg" alt="Oceans of Serenity" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 4 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+
+
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price ">04</div>
+
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      Termite & Borer Proof
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      Shielded against microbes, viruses, bacteria, fungi, termites, and borers in their favourable
+                      conditions.
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image mt_50">
+                  <img src="assets/images/process-3.jpeg" alt="Winds of Change" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 5 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+
+
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price ">05</div>
+
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      Fire Resistant
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      Fully vacuum pressure-treated veneer with fire-retardant chemical containing nano particles, and
+                      organ phosphorus chemicals used during the process, providing excellent fire-retardant properties.
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image">
+                  <img src="assets/images/process-4.jpeg" alt="Flames of Passion" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 6 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+
+
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price ">06</div>
+
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      Boiling Water Proof
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      100% BWP grade high solid phenolic polymers ensures excellent bonding and waterproof properties.
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image mt_50">
+                  <img src="assets/images/process-5.jpeg" alt="Oceans of Serenity" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider: Slide 7 -->
+
+            <div class="emotions-slider__slide swiper-slide">
+              <div class="emotions-slider__item emotions-slider-item">
+                <div class="emotions-slider-item__content">
+                  <div class="emotions-slider-item__header">
+                    <div class="emotions-slider-item__header-inner">
+                      <div class="emotions-slider-item__price">07</div>
+
+                    </div>
+                  </div>
+
+                  <div class="emotions-slider-item__info">
+                    <h2 class="emotions-slider-item__title text-white">
+                      High Screw & Nail Holding Capacity
+                    </h2>
+                    <div class="emotions-slider-item__text text-white">
+                      Made from all composed full sheet veneers of select hardwood species, ensuring a robust and
+                      well-structured plywood.
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="emotions-slider-item__image mt_10">
+                  <img src="assets/images/process-6.jpeg" alt="Winds of Change" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- project section ends -->
+
+  <!-- map section starts -->
+  <div class="container my-5 discover-section">
+    <div class="row align-items-center">
+      <!-- Content Section -->
+      <div class="col-lg-6 col-md-12 p-3 text-left text-lg-start">
+        <h1 class="p-1">Discover the elegance of Arvi Ply Performance Ply</h1>
+        <p class="p-2">
+          Looking to experience the luxury of Arvi Ply Performance Ply that can transform your furniture? You’re just a
+          click away from exploring our range of plywood and getting expert advice from our trusted partners.
+        </p>
+        <button class="common_btn m-2">Find A Plywood Shop Near Me</button>
+      </div>
+      <!-- Image Section -->
+      <div class="col-lg-6 col-md-12 pt-5 text-center">
+        <img class="img-fluid mapImg" src="https://plywood.royaletouche.com/_next/static/media/india.ba132603.svg"
+          alt="Image of a map">
+      </div>
+    </div>
+  </div>
+
+  <!-- map section ends -->
+
+  <!-- layer section starts -->
+  <section class="tf__brand_3 mt_170 xs_mt_100">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="marquee_animi">
+            <ul>
+              <li>Vacuum Pressure Treatment</li>
+              <li>Fully Composed Core & Panels</li>
+              <li>100% Phenolic Resins</li>
+              <li>Termite & Borer Proof</li>
+              <li>Fire Resistant</li>
+              <li>Boiling Water Proof</li>
+              <li>High Screw & Nail Holding Capacity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- layer section ends -->
+
+  <!-- blog starts -->
+  <section class="blog pt_120 xs_pt_80 mb_20">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 col-md-8">
+          <div class="section_heading">
+            <h5>LATEST NEWS</h5>
+            <h2 data-text-animation data-split="word">
+              Latest News & Updates.
+            </h2>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="blog_right_text">
+            <a class="circle_btn" href="blog_grid.html">View All <br />
+              Our News <i class="fx-icon-next-arrow"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt_20">
+        <div class="col-lg-4 col-md-6" data-animation="fade-left">
+          <div class="single_blog first_blog">
+            <div class="single_blog_text">
+              <ul class="d-flex flex-wrap">
+                <li>User Experience</li>
+                <li>September 10, 2023</li>
+              </ul>
+              <a class="title" href="blog_details.html">Learn About Plywood Sizes and Plywood Grades.</a>
+            </div>
+            <div class="single_blog_img">
+              <a href="blog_details.html" data-cursor='<i class="fa-solid fa-arrow-right"></i>' class="img w-100">
+                <div data-animation="img-blur" class="w-100">
+                  <img src="assets/images/blog-img-1.webp" alt="blog" class="img-fluid w-100" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-animation="fade-left" data-delay=".75">
+          <div class="single_blog">
+            <div class="single_blog_text">
+              <ul class="d-flex flex-wrap">
+                <li>User Experience</li>
+                <li>September 10, 2023</li>
+              </ul>
+              <a class="title" href="blog_details.html">Customizing Plywood Sizes for Unique Design Projects.</a>
+            </div>
+            <div class="single_blog_img">
+              <a href="blog_details.html" data-cursor='<i class="fa-solid fa-arrow-right"></i>' class="img w-100">
+                <div data-animation="img-blur" class="w-100">
+                  <img src="assets/images/blog-img-2.webp" alt="blog" class="img-fluid w-100" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-animation="fade-left" data-delay="1">
+          <div class="single_blog last_blog">
+            <div class="single_blog_text">
+              <ul class="d-flex flex-wrap">
+                <li>User Experience</li>
+                <li>September 10, 2023</li>
+              </ul>
+              <a class="title" href="blog_details.html">Everything You Should Know About Plywood Today.</a>
+            </div>
+            <div class="single_blog_img">
+              <a href="blog_details.html" data-cursor='<i class="fa-solid fa-arrow-right"></i>' class="img w-100">
+                <div data-animation="img-blur" class="w-100">
+                  <img src="assets/images/blog-img-3.webp" alt="blog" class="img-fluid w-100" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog ends -->
+
+  <!-- footer starts -->
+  <footer class="pt_120 xs_pt_80">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xl-4 col-sm-8 col-md-6 col-lg-4">
+          <div class="footer_content">
+            <a class="footer_logo" href="index.html">
+              <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+            </a>
+            <p>
+              Stay updated with the latest insights, trends, and expert advice through our informative blog. Explore a
+              variety of topics to help you make informed decisions on plywood, blockboards, and more
+            <ul class="d-flex flex-wrap">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-3 col-md-6 col-lg-2">
+          <ul class="footer_menu">
+            <li>
+              <a href="index.html" class="text_hover_animaiton text_hover_type_2">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="text_hover_animaiton text_hover_type_2">About</a>
+            </li>
+            <li>
+              <a href="innovation.html" class="text_hover_animaiton text_hover_type_2">Innovation</a>
+            </li>
+            <li>
+              <a href="plywood.html" class="text_hover_animaiton text_hover_type_2">Products</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+            </li>
+            <li>
+              <a href="blog_grid.html" class="text_hover_animaiton text_hover_type_2">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-6 col-lg-3">
+          <div class="footer_address">
+            <h3>Address</h3>
+            <p>33 Road Broklyn Street, 600 New York, USA</p>
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 col-lg-3">
+          <div class="footer_address">
+            <h3>Contact</h3>
+            <p>
+              <a href="mailto:needhelp@company.com">arviply18@gmail.com</a>
+              <a href="callto:+926668880000">+91 87188 71851</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_copyright">
+            <p>Copyright © 2024 Innovatix. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+
+  <div class="tf__scroll_btn"><i class="fa-solid fa-arrow-up"></i></div>
+
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sliders = document.querySelectorAll(".emotions-slider");
+
+      if (!sliders.length) return;
+
+      const list = [];
+
+      sliders.forEach((element) => {
+        const [slider, prevEl, nextEl, pagination] = [
+          element.querySelector(".swiper"),
+          element.querySelector(".slider-nav__item_prev"),
+          element.querySelector(".slider-nav__item_next"),
+          element.querySelector(".slider-pagination")
+        ];
+
+        list.push(
+          new Swiper(slider, {
+            slidesPerView: "auto",
+            spaceBetween: 20,
+            speed: 600,
+            observer: true,
+            watchOverflow: true,
+            watchSlidesProgress: true,
+            centeredSlides: false,
+            initialSlide: 0,
+            loop: true,
+            navigation: { nextEl, prevEl, disabledClass: "disabled" },
+            breakpoints: {
+              768: { spaceBetween: 40 }
+            },
+            autoplay: {
+              delay: 2000,
+              disableOnInteraction: false,
+            }
+          })
+        );
+      });
+    });
+  </script>
+
+  <!-- scripts -->
+  <script src="./assets/js/plugin.js"></script>
+  <script src="./assets/js/animation.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

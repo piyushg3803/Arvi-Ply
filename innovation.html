@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/icons/Arvi-ply-logo.png" type="image/x-icon" />
+
+    <title>Arvi Ply - Best Plywood Brand in India</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/spacing.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/carousel.css" />
+</head>
+
+<body>
+    <!-- preloader starts -->
+    <div class="preloader">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <h5 class="preloader-text">Arvi Ply</h5>
+    </div>
+    <!-- preloader ends -->
+
+    <!-- navbar starts -->
+    <header>
+        <div class="main_menu navbar d-none d-xl-flex">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+                </a>
+                <div class="main-menu">
+                    <nav class="navbar-nav m-auto" id="navbarNav">
+                        <ul>
+                            <li class="dropdown-nav">
+                                <a href="index.html" class="text_hover_animaiton">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="text_hover_animaiton">About</a>
+                            </li>
+                            <li class="dropdown-nav">
+                                <a href="innovation.html" class="text_hover_animaiton">Innovation</a>
+                            </li>
+                            <li class="dropdown-nav">
+                                <a href="plywood.html" class="text_hover_animaiton">Products</a>
+                                <ul class="submenu">
+                                    <li class="dropdown-nav">
+                                        <a href="plywood.html">Club 710</a>
+                                    </li>
+                                    <li class="dropdown-nav">
+                                        <a href="blockboard.html">Gold 710</a>
+                                    </li>
+                                    <li class="dropdown-nav">
+                                        <a href="plywood.html">BWR Premium</a>
+                                    </li>
+                                    <li class="dropdown-nav">
+                                        <a href="blockboard.html">Prime MR</a>
+                                    </li>
+                                    <li class="dropdown-nav">
+                                        <a href="plywood.html">Bock Board</a>
+                                    </li>
+                                    <li class="dropdown-nav">
+                                        <a href="blockboard.html">Flush Door</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-nav">
+                                <a href="blog.html" class="text_hover_animaiton">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="text_hover_animaiton">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="right_menu">
+                    <a href="#" class="search_icon"></a>
+                    </a>
+                    <a href="contact.html" class="common_btn">Request Quote</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu d-xl-none main_menu d-flex">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <div class="navbar-brand ms-3">
+                        <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                                class="img-fluid w-100" /></a>
+                    </div>
+                    <div class="text-end me-3">
+                        <a class="menu-bar navbar-toggler" href="javascript:void(0)"><i
+                                class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile_menu_container">
+            <div class="mobile_menu_content">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="navbar-brand">
+                        <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                                class="img-fluid w-100" /></a>
+                    </div>
+                    <div class="close_btn">
+                        <button><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+                <div class="main-menu-mobile"></div>
+            </div>
+        </div>
+    </header>
+    <form>
+        <input type="text" placeholder="Search" />
+        <button type="submit">Search</button>
+        <span class="close_search c-pointer"><i class="fa-sharp fa-light fa-xmark"></i></span>
+        <i class="icon-down-arrow"></i>
+    </form>
+    <div class="body-overlay"></div>
+    <!-- navbar ends -->
+
+    <!-- innovation section starts -->
+    <section class="tf__portfolio_page mt_150 xs_mt_150">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading">
+                            <h5>Our Innovation</h5>
+                            <h2 class="banner_title">
+                                Innovative Technology for High Class Furniture
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt_50">
+            <div class="d-flex flex-column justify-content-between">
+                <img class="m-auto" src="assets/images/4tier.jpg" style="max-width: 150px; width: 100%;" alt="">
+                <p class="fs-5 mt_20 text-center">We Use High End Press <br> Technology to make our Products.</p>
+            </div>
+            <div class="d-flex justify-content-center mt_50">
+                <img src="assets/images/arvi-innovation.png" alt="" class="img-fluid" style="max-width: 800px;">
+            </div>
+        </div>
+    </section>
+    <!-- innovation section ends -->
+
+    <!-- process starts -->
+    <div class="container mt_100">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_heading">
+                    <h2 class="banner_title text-center">
+                        Our Process
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt_50" style="display: flex; justify-content: space-around;">
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">01</h5>
+                </div>
+                <p class="fw-bold">Step 1</p>
+                <p style="font-size: 15px;">Making 8 x 4 Ft. Core And Panel By Core Composer</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">02</h5>
+                </div>
+                <p class="fw-bold">Step 2</p>
+                <p style="font-size: 15px;">Assembly Of 8 X 4 Ft. Core And Panel Without face</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">03</h5>
+                </div>
+                <p class="fw-bold">Step 3</p>
+                <p style="font-size: 15px;">Cold Press Ingto Make Of Mat Ply</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">04</h5>
+                </div>
+                <p class="fw-bold">Step 4</p>
+                <p style="font-size: 15px;">Hot Pressing Of Mat Ply</p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt_50 mb_50">
+            <img src="assets/images/caliberate.png" alt="" style="max-width: 500px;">
+        </div>
+
+        <div class="row mt_30" style="display: flex; justify-content: space-around;">
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">05</h5>
+                </div>
+                <p class="fw-bold">Step 5</p>
+                <p style="font-size: 15px;">Cold Pressing Of Mat Ply With Gurjan Face</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">06</h5>
+                </div>
+                <p class="fw-bold">Step 6</p>
+                <p style="font-size: 15px;">Making 8 x 4 Ft. Core And Panel By Core Composer</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">07</h5>
+                </div>
+                <p class="fw-bold">Step 7</p>
+                <p style="font-size: 15px;">Hot Pressing To Get Final High Strength Ply Wood.Termites And Borer
+                    Treatment Of 4times Pressed PlyWood</p>
+            </div>
+            <div class="col-xl-3 text-center">
+                <div class="process-cols">
+                    <h5 class="text-center text-white">08</h5>
+                </div>
+                <p class="fw-bold">Step 8</p>
+                <p style="font-size: 15px;">Final sanding of ply wood with wide belt sander</p>
+            </div>
+        </div>
+    </div>
+    <!-- process ends -->
+
+    <!-- choice section starts -->
+
+    <section class="container mt_50">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_heading">
+                    <h2 class="banner_title text-center">
+                        Our Process
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt_50">
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/feature-9.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>100% Hard wood is used for extra strength</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-2.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Core composing is done by automatic core composers installed in plant</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/feature-1.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Unique manufacturing process of 4 times pressing technology</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/feature-3.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>No chance of inside core and panel gap</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-5.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Effectively treated plywood against termites and borer</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-6.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Perfect thickness and finishing due to both side calibration</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-7.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Resin made with ultra modern technology to make it Eco friendly and safe for use</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-8.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>Bonded with high solid content resin for longlife and superior bonding</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <div class="choice-cols">
+                    <img src="assets/images/choice-9.png" alt="" style="max-width: 100px;">
+                </div>
+                <p>High screw holding capacity because of 8 × 4 ft. core and panels of high density core</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- choice section ends -->
+
+    <!-- contact section starts -->
+    <section class="container mt_50 mb_100">
+        <div class="row justify-content-between">
+            <div class="tf__blog_details_text" id="blog-body" style="line-height: 1.8rem; font-size: large"></div>
+            <form class="tf__contact_form blog_contact_form">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="tf__contact_form_imput">
+                            <label>First Name:</label>
+                            <input type="text" placeholder="e.g. Willy" />
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="tf__contact_form_imput">
+                            <label>Email:</label>
+                            <input type="email" placeholder="e.g. youremail@gmail.com" />
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="tf__contact_form_imput">
+                            <label>Phone:</label>
+                            <input type="text" placeholder="e.g. +91" />
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="tf__contact_form_imput">
+                            <label>subject:</label>
+                            <input type="text" placeholder="e.g. I need help" />
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="tf__contact_form_imput">
+                            <label>Message:</label>
+                            <textarea rows="4" placeholder="e.g. you need any help"></textarea>
+                        </div>
+                        <a href="contact.html">
+                            <button class="circle_btn circle_btn_2 learn_more_2">
+                                <i class="fx-icon-long-next-arrow"></i>
+                                Send Message
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer starts -->
+    <footer class="pt_120 xs_pt_80">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-sm-8 col-md-6 col-lg-4">
+                    <div class="footer_content">
+                        <a class="footer_logo" href="index.html">
+                            <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+                        </a>
+                        <p>
+                            Stay updated with the latest insights, trends, and expert advice through our informative
+                            blog. Explore a
+                            variety of topics to help you make informed decisions on plywood, blockboards, and more
+                        <ul class="d-flex flex-wrap">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-3 col-md-6 col-lg-2">
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="index.html" class="text_hover_animaiton text_hover_type_2">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text_hover_animaiton text_hover_type_2">About</a>
+                        </li>
+                        <li>
+                            <a href="innovation.html" class="text_hover_animaiton text_hover_type_2">Innovation</a>
+                        </li>
+                        <li>
+                            <a href="plywood.html" class="text_hover_animaiton text_hover_type_2">Products</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+                        </li>
+                        <li>
+                            <a href="blog_grid.html" class="text_hover_animaiton text_hover_type_2">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-3">
+                    <div class="footer_address">
+                        <h3>Address</h3>
+                        <p>33 Road Broklyn Street, 600 New York, USA</p>
+                        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-3">
+                    <div class="footer_address">
+                        <h3>Contact</h3>
+                        <p>
+                            <a href="mailto:needhelp@company.com">arviply18@gmail.com</a>
+                            <a href="callto:+926668880000">+91 87188 71851</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_copyright">
+                        <p>Copyright © 2024 Innovatix. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <div class="tf__scroll_btn"><i class="fa-solid fa-arrow-up"></i></div>
+
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

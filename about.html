@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/icons/Arvi-ply-logo.png" type="image/x-icon">
+
+  <title>Arvi Ply - Best Plywood Brand in India</title>
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- gsap plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/spacing.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+  <!-- preloader starts -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <h5 class="preloader-text">Arvi Ply</h5>
+  </div>
+  <!-- preloader ends -->
+
+  <!-- navbar starts -->
+  <header>
+    <div class="main_menu navbar d-none d-xl-flex">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+            </a>
+            <div class="main-menu">
+                <nav class="navbar-nav m-auto" id="navbarNav">
+                    <ul>
+                        <li class="dropdown-nav">
+                            <a href="index.html" class="text_hover_animaiton">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text_hover_animaiton">About</a>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="innovation.html" class="text_hover_animaiton">Innovation</a>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="plywood.html" class="text_hover_animaiton">Products</a>
+                            <ul class="submenu">
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">Club 710</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Gold 710</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">BWR Premium</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Prime MR</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="plywood.html">Bock Board</a>
+                                </li>
+                                <li class="dropdown-nav">
+                                    <a href="blockboard.html">Flush Door</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-nav">
+                            <a href="blog.html" class="text_hover_animaiton">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text_hover_animaiton">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right_menu">
+                <a href="#" class="search_icon"></a>
+                </a>
+                <a href="contact.html" class="common_btn">Request Quote</a>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu d-xl-none main_menu d-flex">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <div class="navbar-brand ms-3">
+                    <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                            class="img-fluid w-100" /></a>
+                </div>
+                <div class="text-end me-3">
+                    <a class="menu-bar navbar-toggler" href="javascript:void(0)"><i
+                            class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_menu_container">
+        <div class="mobile_menu_content">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary"
+                            class="img-fluid w-100" /></a>
+                </div>
+                <div class="close_btn">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+            <div class="main-menu-mobile"></div>
+        </div>
+    </div>
+</header>
+<form>
+    <input type="text" placeholder="Search" />
+    <button type="submit">Search</button>
+    <span class="close_search c-pointer"><i class="fa-sharp fa-light fa-xmark"></i></span>
+    <i class="icon-down-arrow"></i>
+</form>
+<div class="body-overlay"></div>
+  <!-- navbar ends -->
+
+  <!-- about us starts -->
+  <section class="tf__about_us_2 mt_100 xs_mt_50">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section_heading">
+            <h5>ABOUT US</h5>
+            <h2 class="banner_title">
+              Building Strong Foundations With Quality Plywood Solutions.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container tf__service_2">
+      <div class="tf__services_page_item" id="service_list">
+        <div class="row xs_mt_70 item_1 justify-content-between">
+          <div class="col-xl-5 col-md-6">
+            <div class="tf__services_2_img">
+              <div data-animation="img-blur">
+                <img src="assets/images/about-mission.png" alt="service" class="img-fluid w-100" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-md-6">
+            <div class="tf__services_2_text">
+              <h2 data-text-animation data-split="word" class="text-right">
+                Our Mission
+              </h2>
+              <p style="font-size: 1.3rem;">
+                The Mission Of Arvi Plywood is To Best Serve The Plywood Industry By Supplying The Highest Quality Of Plywood. Besides Being Society Centric Company, We Want To Provide A Safe, Healthy To Our Employees. Simultaneous To Maintaining Excellent Quality For The Products, We Also Aim To Maintain High Safety Standards For All Products We Manufacture Along With All Processes To Be Environment-Friendly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt_120 xs_mt_70 item_2 justify-content-between">
+          <div class="col-xl-5 col-md-6">
+            <div class="tf__services_2_text">
+              <h2 data-text-animation data-split="char">
+                Our Vision
+              </h2>
+              <p style="font-size: 1.3rem;">
+                Our Vision Is To Growth And Let Our Customers Avail With The Best Of Plywood Technology. We Visualize Our Core Objectives By Discovering The Rich & Quality Plywood Using Latest Technology And Make It Accessible To The World Of Interior Designs. We Fulfill Our Vision Of Growing And Succeeding By Following Its Principles Strictly Without Compromise.
+              </p>
+              
+            </div>
+          </div>
+          <div class="col-xl-5 col-md-6">
+            <div class="tf__services_2_img">
+              <div data-animation="img-blur">
+                <img src="assets/images/about-vision.png" alt="service" class="img-fluid w-100" />
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- about us ends -->
+
+  <!-- why plywood starts -->
+  <section class="counter counter_3 mt_80 xs_mt_30 pt_120 xs_pt_70 pb_120 xs_pb_70">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xl-6 col-md-6">
+          <div class="counter_img">
+            <img src="assets/images/why-image-1.webp" alt="counter" class="img-fluid w-100" />
+          </div>
+        </div>
+        <div class="col-xl-5 col-md-6">
+          <div class="col-12">
+            <div class="about_text_2_details section_heading"></div>
+            <h5 class="text-white fs-1 mt_20 mb_20">Why Plywood?</h5>
+            <p class="fs-5" style="color: #c4c1c1">
+              With the exponential boom in the building industry, Arvi Ply decided to venture into another vertical
+              that aligned with our supply chain and value proposition
+              At the time, we realized that the plywood market in India was extremely fragmented and saturated with
+              organized and unorganized players.
+            </p>
+            <p class="fs-5" style="color: #c4c1c1">
+              Every single brand in the market had a plethora of ranges of plywood with varying qualities, with almost
+              negligible customer awareness about what comprises a good quality plywood.
+              With the aim of providing a quality product to customers making their dream home, and educating them to
+              make an informed decision, Arvi Ply has introduced Royale Performance Ply - a ply that has it
+              all.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- why plywood ends -->
+
+  <!-- team starts -->
+  <section class="tf__team tf__team_about mt_120 xs_mt_70">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 col-md-8">
+          <div class="section_heading section_heading_2">
+            <h2>Let’s Check our creative team.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-lg-4">
+          <div class="single_team" data-animation="fade-left" data-delay=".5">
+            <a href="#" class="single_team_img cursor-arrow">
+              <img src="assets/images/team_1.jpg" alt="team" class="img-fluid w-100" />
+            </a>
+            <h3>Christian Bale</h3>
+            <p>Owner</p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-lg-4">
+          <div class="single_team" data-animation="fade-left" data-delay=".75">
+            <a href="#" class="single_team_img cursor-arrow">
+              <img src="assets/images/team_2.jpg" alt="team" class="img-fluid w-100" />
+            </a>
+            <h3>Andrew Garfield</h3>
+            <p>Employee</p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-lg-4">
+          <div class="single_team" data-animation="fade-left" data-delay="1">
+            <a href="#" class="single_team_img cursor-arrow">
+              <img src="assets/images/team_3.jpg" alt="team" class="img-fluid w-100" />
+            </a>
+            <h3>Elizabeth Olsen</h3>
+            <p>Employee</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team ends -->
+
+  <!-- timeline starts -->
+  <div class="container-fluid timeline mx-0 mt_100 mb_100">
+    <div class="container mb_50">
+      <div class="row">
+        <div class="col-xl-9 col-md-8">
+          <div class="section_heading section_heading_2">
+            <h2>Have glance on our journey!</h2>
+            <p>
+              Explore our journey from humble beginnings to becoming a trusted name in the industry. With innovation,
+              dedication, and a focus on quality, we’ve built a legacy of excellence in every product we offer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="row awards-win-section">
+        <div class="col-lg-6 col-md-12 awards-win-section-left bg-cover bg-no-repeat bg-center bg-gray"
+          style="background-image: url(assets/images/about-page-1.jpg)">
+          <div class="awards-win-left-content"></div>
+        </div>
+        <div class="col-lg-6 col-md-12 awards-win-section-right bg-gray">
+          <div class="awards-win-right-content">
+            <div class="awards-win">
+              <ul>
+                <!-- COLUMNS 2 -->
+                <li>
+                  <h2 class="title-year">1998</h2>
+                  <h4 class="m-b10">Established 1st laminate factory</h4>
+                  <p>in Surendranagar</p>
+                </li>
+                <!-- COLUMNS 3 -->
+                <li>
+                  <h2 class="title-year">2002</h2>
+                  <h4 class="m-b10">Established Modular furniture</h4>
+                  <p>in Rajkot</p>
+                </li>
+                <!-- COLUMNS 4 -->
+                <li>
+                  <h2 class="title-year">2017</h2>
+                  <h4 class="m-b10">Expanded production capacity</h4>
+                  <p>by 35%</p>
+                </li>
+                <!-- COLUMNS 5 -->
+                <li>
+                  <h2 class="title-year">2018</h2>
+                  <h4 class="m-b10">Launched Arvi Ply wooden</h4>
+                  <p>Floorings Pan India</p>
+                </li>
+                <!-- columns 6 -->
+                <li>
+                  <h2 class="title-year">2024</h2>
+                  <h4 class="m-b10">Plywood Manufacturing Unit Installed </h4>
+                  <p>with production</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- timeline ends -->
+
+  <!-- question starts -->
+  <div class="container mb_50">
+    <div class="row">
+      <div class="col-12">
+        <a href="contact.html" data-cursor='<i class="fa-solid fa-envelope"></i>' class="tf__question_text">
+          <h2>Have any <span>product?</span></h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- question ends -->
+
+  <!-- footer starts -->
+  <footer class="pt_120 xs_pt_80">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xl-4 col-sm-8 col-md-6 col-lg-4">
+          <div class="footer_content">
+            <a class="footer_logo" href="index.html">
+              <img src="assets/images/icons/arvy-ply-logo.svg" alt="Fxotary" class="img-fluid w-100" />
+            </a>
+            <p>
+              Stay updated with the latest insights, trends, and expert advice through our informative blog. Explore a
+              variety of topics to help you make informed decisions on plywood, blockboards, and more
+            <ul class="d-flex flex-wrap">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-3 col-md-6 col-lg-2">
+          <ul class="footer_menu">
+            <li>
+              <a href="index.html" class="text_hover_animaiton text_hover_type_2">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="text_hover_animaiton text_hover_type_2">About</a>
+            </li>
+            <li>
+              <a href="innovation.html" class="text_hover_animaiton text_hover_type_2">Innovation</a>
+            </li>
+            <li>
+              <a href="plywood.html" class="text_hover_animaiton text_hover_type_2">Products</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text_hover_animaiton text_hover_type_2">Contact</a>
+            </li>
+            <li>
+              <a href="blog_grid.html" class="text_hover_animaiton text_hover_type_2">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-6 col-lg-3">
+          <div class="footer_address">
+            <h3>Address</h3>
+            <p>33 Road Broklyn Street, 600 New York, USA</p>
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 col-lg-3">
+          <div class="footer_address">
+            <h3>Contact</h3>
+            <p>
+              <a href="mailto:needhelp@company.com">arviply18@gmail.com</a>
+              <a href="callto:+926668880000">+91 87188 71851</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_copyright">
+            <p>Copyright © 2024 Innovatix. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+
+  <div class="tf__scroll_btn"><i class="fa-solid fa-arrow-up"></i></div>
+
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+
+  <script src="assets/js/plugin.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
