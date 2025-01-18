@@ -496,7 +496,7 @@
           let self = $(this);
           let arrowBtn = document.createElement("BUTTON");
           arrowBtn.classList.add("dropdown-toggle-btn");
-          arrowBtn.innerHTML = "<i class='fx-icon-down-arrow'></i>";
+          arrowBtn.innerHTML = "<i class='fa-solid fa-caret-down'></i>";
 
           self.append(function () {
             return arrowBtn;

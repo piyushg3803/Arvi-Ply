@@ -30,6 +30,8 @@ CSS INDEX
 
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap");
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
 ul,
 ol,
 li {
@@ -524,10 +526,8 @@ html.lenis {
   transform: scale(1);
   -webkit-transform: scale(1);
 }
-/* 
+
 .main-menu > .navbar-nav ul li.dropdown-nav > a::after {
-  content: "\e900";
-  font-family: "Fx-Icon" !important;
   transform: translateY(1px);
   font-size: 14px;
   position: absolute;
@@ -541,7 +541,7 @@ html.lenis {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   display: inline-block;
-} */
+}
 
 .main-menu .navbar-nav .submenu li.dropdown-nav > a::after {
   position: absolute;
@@ -905,7 +905,6 @@ html.lenis {
   background-size: cover !important;
   padding: 115px 0px 120px 0px;
   position: relative;
-  margin-top: 30px;
 }
 
 .banner::after {
