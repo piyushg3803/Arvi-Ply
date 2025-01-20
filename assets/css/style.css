@@ -217,7 +217,7 @@ html.lenis {
 
 .section_heading h5 {
   color: var(--paraColor);
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
   position: relative;
   padding-top: 35px;
@@ -933,7 +933,7 @@ html.lenis {
 }
 
 .banner_text h4 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 7px;
   position: relative;
@@ -957,7 +957,7 @@ html.lenis {
 .banner_text h1,
 .banner_text h1 span {
   font-weight: 700;
-  font-size: 110px;
+  font-size: 150px;
 }
 
 .banner_text h1 span {
