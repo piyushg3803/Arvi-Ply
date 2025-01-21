@@ -3582,7 +3582,7 @@ footer::after {
   -ms-flex-pack: center;
   justify-content: center;
   background: transparent;
-  z-index: 99999999999999;
+  z-index: 99999999999999;  
 }
 
 .preloader svg {
@@ -3593,37 +3593,48 @@ footer::after {
   fill: #111013;
 }
 
-h5.preloader-text {
+.preloader-img {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
-  font-size: 100px;
-  color: #333;
+  width: 300px !important;
+  height: auto !important;
+  object-fit: contain;
+  animation: move 1.5s ease-out forwards;;
+}
+
+@media (max-width: 768px) {
+  .preloader-img{
+    left: 33%;
+  }
+}
+
+@media (max-width: 425px) {
+  .preloader-img{
+    width: 200px !important;
+    left: 30%;
+  }
 }
 
 @media (max-width: 1040px) {
-  h5.preloader-text {
-    font-size: 50px;
+  .preloader-img {
+    width: 50px;
   }
-}
-
-h5.preloader-text::after {
-  content: "Arvi Ply";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--colorPrimary);
-  animation: move 2s infinite alternate;
 }
 
 @keyframes move {
-  from {
-    clip-path: circle(50px at 0% 50%);
+  0% {
+    transform: translateY(0);
+    opacity: 0;
   }
-
-  to {
-    clip-path: circle(50px at 100% 50%);
+  50% {
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
   }
 }
 
