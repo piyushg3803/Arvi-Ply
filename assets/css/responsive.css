@@ -3231,3 +3231,17 @@
   font-size: 30px;
  }
 }
+
+/* custom css */
+
+@media (max-width: 768px) {
+  .banner_title{
+    font-size: 100px !important;
+  }  
+}
+
+@media (max-width: 425px) {
+  .banner_title{
+    font-size: 65px !important;
+  }
+}
