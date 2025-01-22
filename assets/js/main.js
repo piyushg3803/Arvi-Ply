@@ -999,3 +999,14 @@
     fxotary.init();
   });
 })(jQuery);
+
+// media video control
+
+function playVideo(){
+  let container = document.getElementsByClassName("video-container")[0];
+  let thumbnail = document.getElementById("thumbnail") 
+  let video = document.querySelector("iframe")
+
+  thumbnail.style.display = "none";
+  video.style.display = "block"
+}

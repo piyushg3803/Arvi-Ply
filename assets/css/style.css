@@ -976,7 +976,7 @@ html.lenis {
   position: relative;
   margin-top: 25px;
   width: 1400px;
-  height: 440px;
+  height: 180px;
 }
 
 .banner_img img {
@@ -985,26 +985,6 @@ html.lenis {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-}
-
-.banner_img::after {
-  position: absolute;
-  content: "";
-  background: url(../images/banner_shape_2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80px;
-  height: 80px;
-  top: -40px;
-  right: -40px;
-  transition: all linear 0.3s;
-  -webkit-transition: all linear 0.3s;
-  -moz-transition: all linear 0.3s;
-  -ms-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  animation: banner_animi_2 linear 3s infinite alternate;
-  -webkit-animation: banner_animi_2 linear 3s infinite alternate;
 }
 
 @keyframes banner_animi_2 {
@@ -4052,4 +4032,21 @@ p {
   margin-bottom: 30px;
   text-align: center;
   width: 70px;
+}
+
+.video-container{
+  position: relative;
+}
+
+.video-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container iframe{
+  display: none
 }
