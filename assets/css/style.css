@@ -944,7 +944,7 @@ html.lenis {
 .banner_text h4::after {
   position: absolute;
   content: "";
-  background: url(../images/heading_shapes.png);
+  background: url(../images/heading_shapes2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1053,6 +1053,7 @@ html.lenis {
   display: inline-block;
   padding-right: 50px;
   position: relative;
+  color: white;
 }
 
 .banner ul li span::after {
@@ -1060,7 +1061,7 @@ html.lenis {
   content: "";
   width: 17px;
   height: 2px;
-  background: var(--colorBlack);
+  background: var(--colorWhite);
   top: 15px;
   right: 17px;
 }
@@ -1068,12 +1069,13 @@ html.lenis {
 .banner ul li a {
   padding-right: 30px;
   position: relative;
+  color: white;
 }
 
 .banner ul li a:after {
   position: absolute;
   content: "/";
-  color: var(--colorBlack);
+  color: white;
   font-family: var(--paraFont);
   font-size: 20px;
   font-weight: 600;
@@ -3595,10 +3597,7 @@ footer::after {
 
 .preloader-img {
   position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  width: 300px !important;
+  width: 600px !important;
   height: auto !important;
   object-fit: contain;
   animation: move 1.5s ease-out forwards;;
@@ -3606,16 +3605,15 @@ footer::after {
 
 @media (max-width: 768px) {
   .preloader-img{
-    left: 33%;
+    width: 300px !important;
   }
 }
 
 @media (max-width: 425px) {
   .preloader-img{
-    width: 200px !important;
-    left: 30%;
-  }
-}
+    width: 250px !important;
+  } 
+ }
 
 @media (max-width: 1040px) {
   .preloader-img {
