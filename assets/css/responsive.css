@@ -188,22 +188,6 @@
     font-size: 70px;
   }
 
-  .achivement_list ul li .text {
-    width: 85%;
-  }
-
-  .achivement_list ul li .text h4 {
-    font-size: 22px;
-  }
-
-  .achivement_img .img_2 {
-    right: 43px;
-  }
-
-  .achivement_list ul li .icon {
-    margin-right: 20px;
-  }
-
   .testimonial_img {
     height: 720px;
   }
@@ -607,22 +591,6 @@
   .counter_item p {
     font-size: 20px;
     max-width: 100%;
-  }
-
-  .achivement_list ul li .text {
-    width: 85%;
-  }
-
-  .achivement_list ul li .text h4 {
-    font-size: 22px;
-  }
-
-  .achivement_img .img_2 {
-    right: 43px;
-  }
-
-  .achivement_list ul li .icon {
-    margin-right: 20px;
   }
 
   .testimonial_img {
@@ -1191,23 +1159,6 @@
     padding: 35px 0;
   }
 
-  .achivement_right_text p {
-    margin-top: 20px;
-  }
-
-  .achivement_img .img_1 {
-    height: 350px;
-  }
-
-  .achivement_img .img_2 {
-    bottom: 0;
-    right: -150px;
-  }
-
-  .achivement_list ul li .text {
-    width: 80%;
-  }
-
   .testimonial_text .description::after {
     width: 60px;
     height: 45px;
@@ -1326,22 +1277,10 @@
     height: auto;
   }
 
-  .achivement_list ul li .text h4 {
-    max-width: 300px;
-  }
-
-  .achivement_list ul li .text span {
-    font-size: 18px;
-  }
-
   .single_blog_img .img {
     height: 230px;
   }
-
-  .achivement_img {
-    margin-bottom: 70px;
-  }
-
+  
   .testimonial_img::after {
     width: 290px;
     height: 272px;
@@ -1900,24 +1839,6 @@
     padding: 35px 0;
   }
 
-  .achivement_right_text p {
-    margin-top: 20px;
-  }
-
-  .achivement_img .img_1 {
-    height: 350px;
-  }
-
-  .achivement_img .img_2 {
-    width: 170px;
-    height: 185px;
-    bottom: -10px;
-    right: 34px;
-  }
-
-  .achivement_list ul li .text {
-    width: 80%;
-  }
 
   .testimonial_text .description::after {
     width: 60px;
@@ -2033,14 +1954,6 @@
 
   .counter_img {
     height: auto;
-  }
-
-  .achivement_list ul li .text h4 {
-    max-width: 200px;
-  }
-
-  .achivement_list ul li .text span {
-    font-size: 18px;
   }
 
   .single_blog_img .img {
@@ -2610,26 +2523,6 @@
 
   .counter_item {
     padding: 35px 0;
-  }
-
-  .achivement_right_text p {
-    margin-top: 20px;
-  }
-
-  .achivement_img .img_1 {
-    height: 325px;
-  }
-
-  .achivement_img .img_2 {
-    width: 140px;
-    height: 155px;
-    bottom: -10px;
-    right: 28px;
-  }
-
-  .achivement_list ul li .text {
-    width: 100%;
-    margin-top: 20px;
   }
 
   .testimonial_text .description::after {
