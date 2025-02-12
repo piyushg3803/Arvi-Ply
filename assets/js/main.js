@@ -538,10 +538,10 @@
               var $this = $(this);
               var splitType = "lines, chars";
               var splitto = new SplitText($this, {
-                type: splitType,
-                linesClass: "anim_line",
-                charsClass: "anim_char",
-                wordsClass: "anim_word",
+                // type: splitType,
+                // linesClass: "anim_line",
+                // charsClass: "anim_char",
+                // wordsClass: "anim_word",
               });
               var lines = $this.find(".anim_line"),
                 words = $this.find(".anim_word"),

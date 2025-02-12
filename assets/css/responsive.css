@@ -9,7 +9,7 @@
   }
 
   .main_menu::after {
-    width: 140%;
+    width: 100%;
   }
 
   .banner ul {
@@ -160,7 +160,7 @@
   }
 
   .main_menu::after {
-    width: 140%;
+    width: 100%;
   }
 
   .what_we_do ul li .text {
@@ -496,8 +496,8 @@
   }
 
   .section_heading h2 {
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .about_img_1 .img {
@@ -1603,6 +1603,10 @@
     font-size: 48px;
   }
 
+  .hero_title{
+    font-size: 100px !important;
+  }
+
   .banner_text h1 span {
     padding-left: 90px;
   }
@@ -1621,7 +1625,7 @@
   }
 
   .section_heading h2 {
-    font-size: 34px;
+    font-size: 45px;
     line-height: 45px;
   }
 
@@ -2241,6 +2245,10 @@
     font-size: 35px;
   }
 
+  .hero_title{
+    font-size: 80px !important;
+  }
+
   .banner_text h1 span {
     display: inline;
     padding-left: 0;
@@ -2261,7 +2269,7 @@
   }
 
   .section_heading h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 45px;
   }
 
@@ -2949,21 +2957,23 @@
     display: block;
   }
 
- .banner_text h1{
-  font-size: 30px;
- }
+  .banner_text h1 {
+    font-size: 30px;
+  }
 }
 
 /* custom css */
 
 @media (max-width: 768px) {
-  .banner_title{
-    font-size: 100px !important;
-  }  
+  .banner_title,
+  .about-title {
+    font-size: 45px !important;
+  }
 }
 
 @media (max-width: 425px) {
-  .banner_title{
-    font-size: 65px !important;
+  .banner_title,
+  .about-title {
+    font-size: 40px !important;
   }
 }
