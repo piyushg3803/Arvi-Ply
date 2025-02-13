@@ -317,18 +317,14 @@
             that.buttonY += (that.cursorY - that.buttonY) * 0.2;
             that.contentX += (that.cursorX - that.contentX) * 0.2;
             that.contentY += (that.cursorY - that.contentY) * 0.2;
-            let buttonTranslateX = `translateX(${
-              that.buttonX * that.magnetism
-            }%)`;
-            let buttonTranslateY = `translateY(${
-              that.buttonY * that.magnetism
-            }%)`;
-            let contentTranslateX = `translateX(${
-              (-that.contentX * that.magnetism) / 2
-            }%)`;
-            let contentTranslateY = `translateY(${
-              (-that.contentY * that.magnetism) / 2
-            }%)`;
+            let buttonTranslateX = `translateX(${that.buttonX * that.magnetism
+              }%)`;
+            let buttonTranslateY = `translateY(${that.buttonY * that.magnetism
+              }%)`;
+            let contentTranslateX = `translateX(${(-that.contentX * that.magnetism) / 2
+              }%)`;
+            let contentTranslateY = `translateY(${(-that.contentY * that.magnetism) / 2
+              }%)`;
             that.target.style.transform =
               buttonTranslateX + " " + buttonTranslateY;
             that.content.style.transform =
@@ -494,7 +490,7 @@
 
         arrow.each(function () {
           let self = $(this);
-          let arrowBtn = document.createElement("BUTTON");
+          let arrowBtn = document.createElement("button");
           arrowBtn.classList.add("dropdown-toggle-btn");
           arrowBtn.innerHTML = "<i class='fa-solid fa-caret-down'></i>";
 
@@ -502,22 +498,24 @@
             return arrowBtn;
           });
 
-          self.find("button").on("click", function (e) {
+          $(".main-menu-mobile .dropdown-nav > a").on("click", function (e) {
             e.preventDefault();
             let self = $(this);
-            self.toggleClass("dropdown-opened");
-            self.parent().toggleClass("expanded");
-            self
-              .parent()
-              .parent()
-              .addClass("dropdown-opened")
-              .siblings()
-              .removeClass("dropdown-opened");
-            self.parent().parent().children(".submenu").slideToggle();
+            self.toggleClass("expanded");
+            self.children(":nth-child(2)").toggleClass("dropdown-opened")
+            self.siblings(".submenu").slideToggle();
+
+            // self.find("button").on("click", function (e) {
+            //   e.preventDefault();
+            //   let self = $(this);
+            //   self.toggleClass("dropdown-opened");
+            //   self.parent().toggleClass("expanded");
+            //   self.parent().parent().children(".submenu").slideToggle();
           });
         });
       }
     },
+
     preloader() {
       const svg = document.getElementById("svg");
       const tl = gsap.timeline();
