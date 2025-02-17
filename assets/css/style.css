@@ -3126,22 +3126,18 @@ footer::after {
   transition: 0.5s all;
   transition-delay: 0.25s;
 }
-
+/* 
 .circle_btn .white-logo{
   display: none;
 }
 
 .circle_btn:hover .white-logo{
   display: block;
-} 
-
+}  */
+/* 
 .circle_btn:hover .og-logo{
   display: none;
-}
-
-.circle_btn:hover {
-  border-color: var(--colorPrimary);
-}
+} */
 
 .circle_btn:hover span {
   transition-delay: 0s;
@@ -3162,7 +3158,7 @@ footer::after {
   z-index: 0;
   width: 2%;
   transform: translate(-50%, -50%);
-  background: var(--colorPrimary);
+  /* background: var(--colorPrimary); */
   border-radius: 50%;
   transform-origin: center;
   opacity: 0;
@@ -3838,4 +3834,5 @@ p {
 
 .product-img{
   width: 350px !important;
+  border-radius: 10px
 }  
