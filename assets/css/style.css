@@ -190,6 +190,12 @@ html.lenis {
   height: 100%;
 }
 
+.product-container{
+  /* display: flex;
+  justify-content: center; */
+  aspect-ratio: 1/1;
+}
+
 [data-text-animation] {
   opacity: 0;
   overflow: hidden;
@@ -1552,10 +1558,11 @@ html.lenis {
 }
 
 .single_blog_img .img {
-  border-radius: 5px;
-  height: 260px;
+  /* height: 260px; */
   overflow: hidden;
   margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
 }
 
 .single_blog_img a {
@@ -2640,8 +2647,9 @@ footer::after {
 
 .blog_list_img {
   height: 350px;
-  border-radius: 5px;
   overflow: hidden;
+  display: flex !important;
+  justify-content: center;
 }
 
 .blog_list_text {
@@ -3119,8 +3127,16 @@ footer::after {
   transition-delay: 0.25s;
 }
 
-.circle_btn i {
-  font-size: 22px;
+.circle_btn .white-logo{
+  display: none;
+}
+
+.circle_btn:hover .white-logo{
+  display: block;
+} 
+
+.circle_btn:hover .og-logo{
+  display: none;
 }
 
 .circle_btn:hover {
@@ -3821,5 +3837,5 @@ p {
 }
 
 .product-img{
-  object-fit: fill !important;
+  width: 350px !important;
 }  
