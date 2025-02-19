@@ -2999,3 +2999,9 @@
     height: 45px;
   }
 }
+
+@media (max-width: 1200px){
+  .why-text{
+    font-size: 0.9rem !important;    
+  }
+}
