@@ -1722,7 +1722,7 @@ footer {
   color: var(--colorYellow);
 }
 
-.footer_address h3 {
+footer h3 {
   color: var(--colorWhite);
   font-size: 24px;
   font-style: normal;
@@ -3842,4 +3842,12 @@ p {
 .product-img{
   width: 350px !important;
   border-radius: 10px
-}  
+} 
+
+.spec-list li{
+  list-style-type: disc;
+}
+
+.spec-list li::marker{
+  color: #066760;
+}
