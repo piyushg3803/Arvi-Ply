@@ -1212,7 +1212,7 @@ html.lenis {
 
 .what_we_do ul li .text {
   width: 68%;
-  padding-right: 30px;
+  padding-inline: 30px;
 }
 
 .what_we_do ul li .text h3 {
@@ -1734,7 +1734,7 @@ footer h3 {
 .footer_address p {
   color: #82838c;
   line-height: 30px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .footer_address a {
@@ -3850,4 +3850,13 @@ p {
 
 .spec-list li::marker{
   color: #066760;
+}
+
+.list-image{
+  width: 150px;
+  height: 150px;
+}
+
+.list-image img{
+  border-radius: 50%;
 }
